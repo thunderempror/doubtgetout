@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Doubtgetout</title>
+    <link rel="icon" href="images/doubt.png" sizes="64*64">
+    <link rel="stylesheet" href="additionalfiles/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="additionalfiles/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="additional files/bootstrap-reboot.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Doubtgetout</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <button type="button" class="btn btn-dark">
+                    Questions <span class="badge badge-light ques-notify">0</span>
+                </button>
+                <button type="button" class="btn btn-dark">
+                    Answered <span class="badge badge-light ans-notify">0</span>
+                </button>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <h1 class="aanda">Ask and Answer</h1>
+    <div class="container top-container">
+
+        <div class="row">
+
+            <div class="col-lg-3 col-sm-12 left-col"> data on left
+
+
+
+
+                <section class="answer-post">
+                    <h3>Answer :</h3>
+                    <textarea name="answer" id="answer"></textarea>
+                    <br><br>
+                    <button class="btn btn-light post-answer">Post Answer</button>
+                </section>
+
+            </div>
+            
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-8 col-sm-12 right-col">
+
+                <section class="question-ask">
+                    <h2>Ask Your Query :</h2>
+                    <textarea name="ask" id="question"></textarea>
+                    <br><br>
+                    <button class="btn btn-dark post-question">Post Question</button>
+                </section>
+
+
+              
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+<!--  hidden answer button -->
+<!-- <button class="btn btn-success answer-button">Answer</button> -->
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="additionalfiles/jquery-3.4.1.min.js"></script>
+    <script src="additionalfiles/bootstrap.bundle.min.js"></script>
+    <script src="additionalfiles/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
