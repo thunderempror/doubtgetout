@@ -1,0 +1,76 @@
+.left-div{
+    float: left;
+}
+
+@font-face{
+    font-family: FugazOne;
+    src: url(fonts/FugazOne-Regular.ttf);
+}
+
+body{
+    font-family: Saira-Regular;
+    /* background-color:#343a40; */
+    /* color: white; */
+}
+
+@font-face{
+    font-family: Saira-Regular;
+    src: url(fonts/Saira-Regular.ttf);
+}
+
+h1{
+    font-family: FugazOne;
+}
+
+
+.top-container{
+    margin-top:30px;
+}
+
+.aanda{
+    text-align: center;
+    width:fit-content;
+    margin: auto;
+}
+
+.left-col{
+    /* box-shadow: 5px 5px wheat; */
+    min-height: 300px;
+}
+
+.right-col{
+    /* box-shadow: 5px 5px wheat; */
+    min-height: 300px;
+}
+
+#question{
+    width:100%;
+}
+
+.question-ask{
+    /* border: solid 1px grey; */
+    padding: 5px;
+}
+
+
+.posted-question{
+    min-height: 100px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#answer{
+    width: 100%;
+}
+
+
+/* //show up when clicked on button */
+.answer-post{
+    color:green;
+    /* display: none; */
+}
+
+
+.answer-button{
+    /* display: none; */
+}
