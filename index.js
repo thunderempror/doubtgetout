@@ -8,7 +8,7 @@ document.querySelector(".post-question").addEventListener("click", function () {
     }
     else {
         i++;
-
+        document.querySelector("#question").value="";
         console.log(i);
         
         document.querySelector(".ques-notify").innerHTML=i;
