@@ -59,18 +59,7 @@ h1{
     margin-bottom: 10px;
 }
 
-#answer{
+.answer{
     width: 100%;
-}
-
-
-/* //show up when clicked on button */
-.answer-post{
-    color:green;
-    /* display: none; */
-}
-
-
-.answer-button{
-    /* display: none; */
+    min-height: 150px;
 }
